@@ -1,0 +1,22 @@
+image: registry.gitlab.com/pages/hugo:0.26
+
+test:
+  script:
+  - apk --update add git nodejs nodejs-npm
+  - cd themes && git clone https://github.com/MunifTanjim/minimo.git minimo
+  - cd ..
+  - hugo
+  except:
+  - master
+
+pages:
+  script:
+  - apk --update add git nodejs nodejs-npm
+  - cd themes && git clone https://github.com/MunifTanjim/minimo.git minimo
+  - cd ..
+  - hugo
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
