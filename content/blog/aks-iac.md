@@ -52,8 +52,8 @@ az ad sp create-for-rbac --name aks-sylus
 
 ```sh
 az role assignment create --role=Contributor \
-                          --scope=/subscriptions/<SUBSCRIPTION ID>/resourceGroups/${AKS_VNET_RG} \
-                          --assignee <SP CLIENTID>
+                          --scope=/subscriptions/SUBSCRIPTION_ID/resourceGroups/${AKS_VNET_RG} \
+                          --assignee SP_CLIENTID
 ```
 
 # Create AKS cluster
