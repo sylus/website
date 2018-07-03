@@ -73,10 +73,8 @@ titleSeparator = "•"
 email = "william.hearn@canada.ca"
 github = "sylus"
 gitlab = "sylus"
-instagram = "MunifTanjim"
-linkedin = "muniftanjim"
-twitter = "MunifTanjim"
-telegram = "MunifTanjim"
+linkedin = "william-hearn-78688227"
+twitter = "william_hearn"
 
 [params.comments]
 enable = false
@@ -87,8 +85,8 @@ apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 2
 
 [params.comments.staticman.github]
-username = "MunifTanjim"
-repository = "minimo"
+username = "sylus"
+repository = "website"
 branch = "master"
 
 [taxonomies]
@@ -104,7 +102,7 @@ page = "/:slug/"
 name = "Repo"
 weight = -10
 identifier = "repository"
-url = "https://github.com/sylus/sylus.ca"
+url = "https://github.com/sylus/website"
 
 [blackfriday]
 hrefTargetBlank = true
