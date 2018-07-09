@@ -1,5 +1,5 @@
 ---
-title: Resume
+title: Resumé
 description: Cloud Engineer with a passion for Open Source technologies seeking to gain both new experiences and knowledge in order to increase overall technological skill set. Currently passions include Drupal, Containerization and all things Kubernetes.
 menu: main
 weight: -210
@@ -16,9 +16,11 @@ toc: true
   - [Youtube][youtube]
 2. Open Source involvement:
   - Official Docker images (Drupal Alpine)
-  - Official Helm charts (NiFi, Kylo)
-  - Extensions to Azure ACS Engine (Chocolately)
+  - Official Kubernetes Helm charts ([NiFi][nifi], [Kylo][kylo])
+  - Extensions to Azure ACS Engine ([Chocolately][chocolately])
 3. Core Maintainer of Drupal WxT 7/8
+  - [Drupal 7 WxT][wetkit]
+  - [Drupal 8 WxT][wxt]
 4. Technical Architect:
   - [Open Government Portal][opendata] (Drupal 7/8)
   - [Statistics Canada Portal][statcan] (Drupal 7/8)
@@ -31,7 +33,7 @@ Graduate of the Computer Science program at Carleton University in the software 
 
 **Game Development, Algonquin College <br> // September 2004 - June 2006**
 
-Completed 2 of 3 years in game development program at Algonquin College before switching into the Bachelor of Computer Science program at Carleton University. Core concepts focused on leveraging Direct X and Object Oriented Programming with C++. One of the years end projects was to create and render a chess board with the built in rulesets.
+Completed 2 of 3 years in game development program at Algonquin College before switching into the Bachelor of Computer Science program at Carleton University. Core concepts focused on leveraging Direct X and Object Oriented Programming with C++. One of the years end projects was to create and render a chess board with all of the built in rulesets.
 
 ## Work
 
@@ -138,8 +140,11 @@ References are available upon request.
 <!-- Links Referenced -->
 
 [carleton-library]:       https://library.carleton.ca
+[chocolately]:            https://github.com/Azure/acs-engine/pull/2707
 [govcloud]:               https://govcloud.ca
 [meetup]:                 https://www.meetup.com/goc-cloud-native
+[nifi]:                   https://github.com/kubernetes/charts/pull/5772
+[kylo]:                   https://github.com/kubernetes/charts/pull/5773
 [opendata]:               https://open.canada.ca
 [openplus]:               https://openplus.ca
 [opseu]:                  https://opseu.org
@@ -149,4 +154,6 @@ References are available upon request.
 [scc]:                    https://www.scc.ca
 [uottawa]:                httpa://uottawa.ca
 [wet-boew-drupal]:        https://github.com/wet-boew/wet-boew-drupal
+[wetkit]:                 https://drupal.org/project/wetkit
+[wxt]:                    https://drupal.org/project/wxt
 [youtube]:                https://www.youtube.com/channel/UC00nN9hhb4q6IChP8yEIzGA
