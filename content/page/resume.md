@@ -13,6 +13,7 @@ toc: true
 1. GoC Cloud Native Working Group
   - [Meetup][meetup]
   - [Website][govcloud]
+  - [GitHub][gh-govcloud]
   - [Youtube][youtube]
 2. Open Source involvement:
   - Official Docker images ([Drupal Alpine][drupal])
@@ -117,11 +118,11 @@ Core maintainer of the Drupal WxT Variant, which integrates exclusively with the
 
 ### Public Service Excellence Award 2014
 
-Received the public service excellence award in the “Excellence in Citizen Focused Delivery” category for my work on the Open Data platform (open.canada.ca).
+Received the public service excellence award in the “Excellence in Citizen Focused Delivery” category for my work on the Open Data platform ([open.canada.ca][opendata]).
 
 ### Team of the Year Award 2014
 
-Received the team of the year at Statistics Canada for my work on the Open Data platform (open.canada.ca).
+Received the team of the year at Statistics Canada for my work on the Open Data platform ([open.canada.ca][opendata]).
 
 ### GTEC Winner 2014
 
@@ -145,6 +146,7 @@ References are available upon request.
 [carleton-library]:       https://library.carleton.ca
 [chocolately]:            https://github.com/Azure/acs-engine/pull/2707
 [drupal]:                 https://github.com/docker-library/drupal/graphs/contributors
+[gh-govcloud]:            https://github.com/govcloud
 [govcloud]:               https://govcloud.ca
 [meetup]:                 https://www.meetup.com/goc-cloud-native
 [hadoop]:                 https://github.com/kubernetes/charts/pull/6688
