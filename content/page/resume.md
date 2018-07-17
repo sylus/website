@@ -15,10 +15,10 @@ toc: true
   - [Website][govcloud]
   - [Youtube][youtube]
 2. Open Source involvement:
-  - Official Docker images (Drupal Alpine)
-  - Official Kubernetes Helm charts ([NiFi][nifi], [Kylo][kylo])
+  - Official Docker images ([Drupal Alpine][drupal])
+  - Official Kubernetes Helm charts ([Hadoop][hadoop], [NiFi][nifi], [Kylo][kylo])
   - Extensions to Azure ACS Engine ([Chocolately][chocolately])
-3. Core Maintainer of Drupal WxT 7/8
+3. Maintainer of Drupal WxT 7/8
   - [Drupal 7 WxT][wetkit]
   - [Drupal 8 WxT][wxt]
 4. Technical Architect:
@@ -45,7 +45,7 @@ Technical Architect with a focus on containerization and Kubernetes. Notable job
 
 1. Administration, support, and maintenance of multiple Kubernetes clusters on Azure (AKS, ACS Engine)
 2. Onboarding of teams towards a micro services approach through containerization and cloud native tooling
-3. Creation of various docker images, often along with a corresponding Helm chart
+3. Creation of various docker images, often along with a corresponding Helm chart. (Drupal, Hadoop w/Hive, NiFi, Kylo, etc)
 4. Providing a full CI/CD pipeline either through VSTS, Jenkins and/or GitLab CI with Kubernetes integration
 5. DevTest Labs workflow leveraging formulas / artifacts (calling ansible playbooks) to fully provision a VM
 6. SAS containerization and workflow improvements
@@ -141,8 +141,10 @@ References are available upon request.
 
 [carleton-library]:       https://library.carleton.ca
 [chocolately]:            https://github.com/Azure/acs-engine/pull/2707
+[drupal]:                 https://github.com/docker-library/drupal/graphs/contributors
 [govcloud]:               https://govcloud.ca
 [meetup]:                 https://www.meetup.com/goc-cloud-native
+[hadoop]:                 https://github.com/kubernetes/charts/pull/6688
 [nifi]:                   https://github.com/kubernetes/charts/pull/5772
 [kylo]:                   https://github.com/kubernetes/charts/pull/5773
 [opendata]:               https://open.canada.ca
