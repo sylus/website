@@ -23,7 +23,7 @@ enableEmoji = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Technical Architect, Cloud Operations @ Statistics Canada"
+description = "Technical Architect, Cloud Ops @ Statistics Canada"
 title404 = "Nothing's here!"
 
 [params.assets]
