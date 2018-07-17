@@ -52,7 +52,7 @@ Technical Architect with a focus on containerization and Kubernetes. Notable job
 7. JupyterHub for Kubernetes integration
   - LDAP
   - WxT theming support
-  - Notebooks for Python, Tensorflow, Strata, SAS, etc
+  - Notebooks for Python, Tensorflow, Stata, SAS, etc
 8. Facilitating container security through tools such as Artifactory, XRay
 
 **Web Content Management Team (2011 - 2017)**
@@ -76,7 +76,7 @@ Technical Architect with a focus on improving content delivery leveraging Drupal
   - Adherance to WCAG 2.0 AA and Government of Canada web standards
   - Developed a distirbuted content staging model using web services, rest via json, and UUID
   - Ensure the platform provides extensive multilingualism support across both the front and back end interfaces
-  - Assisted in development of the new Dissemination Model to make finding data easier
+  - Assisted in development of the new Dissemination Model to make finding data on portal easier to find
   - Work alongside a contractor on extending Drupal to be more of an output metadata framework powered by REST
 
 **Open Plus ([openplus.ca][openplus]) <br> // September 2010 – March 2011 (Full Time) <br> // March 2011 – Present (Contract, Part Time)**
@@ -108,17 +108,20 @@ Web Developer tasked with creating a new Carleton Library site alongside the Sen
 
 **Web Experience Toolkit ([wet-boew/wet-boew-drupal][wet-boew-drupal]) <br> // March 2011 – Present**
 
+* [Drupal 7][wxt-d7]
+* [Drupal 8][wxt-d8]
+
 Core maintainer of the Drupal WxT Variant, which integrates exclusively with the Web Experience Toolkit to provide an open source, accessible, usable, and interoperable framework for Government and Enterprise organizations.
 
 ## Awards
 
 ### Public Service Excellence Award 2014
 
-Received the public service excellence award in the “Excellence in Citizen Focused Delivery” category for my work on the Open Data platform (data.gc.ca).
+Received the public service excellence award in the “Excellence in Citizen Focused Delivery” category for my work on the Open Data platform (open.canada.ca).
 
 ### Team of the Year Award 2014
 
-Received the team of the year at Statistics Canada for my work on the Open Data platform (data.gc.ca).
+Received the team of the year at Statistics Canada for my work on the Open Data platform (open.canada.ca).
 
 ### GTEC Winner 2014
 
@@ -158,4 +161,6 @@ References are available upon request.
 [wet-boew-drupal]:        https://github.com/wet-boew/wet-boew-drupal
 [wetkit]:                 https://drupal.org/project/wetkit
 [wxt]:                    https://drupal.org/project/wxt
+[wxt-d7]:                 https://drupal.org/project/wetkit
+[wxt-d8]:                 https://drupal.org/project/wxt
 [youtube]:                https://www.youtube.com/channel/UC00nN9hhb4q6IChP8yEIzGA
