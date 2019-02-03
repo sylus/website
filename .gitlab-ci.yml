@@ -1,4 +1,4 @@
-image: registry.gitlab.com/pages/hugo:0.40.3
+image: registry.gitlab.com/pages/hugo:0.53
 
 test:
   script:

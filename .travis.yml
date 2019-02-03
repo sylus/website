@@ -5,7 +5,7 @@ node_js:
 
 env:
   global:
-    - HUGO_VERSION=0.40.3
+    - HUGO_VERSION=0.53
     - COMMIT_MSG="Commit ${TRAVIS_COMMIT}"
 
 before_install:
