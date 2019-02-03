@@ -121,4 +121,4 @@ az aks use-dev-spaces -g ${AKS_RG} \
 
 <!-- Links Referenced -->
 
-[aks-arm]:       https://github.com/govcloud/aks-iac
+[aks-arm]:       https://github.com/sylus/aks-iac
