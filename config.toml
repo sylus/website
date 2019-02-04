@@ -99,10 +99,10 @@ tag = "tags"
 page = "/:slug/"
 
 [[menu.main]]
-name = "Repo"
+name = "Portfolio"
 weight = -10
-identifier = "repository"
-url = "https://github.com/sylus/website"
+identifier = "portfolio"
+url = "https://github.com/sylus"
 
 [blackfriday]
 hrefTargetBlank = true
