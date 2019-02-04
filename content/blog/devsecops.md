@@ -3,7 +3,7 @@ date: "2018-07-18T22:00:27-04:00"
 title: "DevSecOps"
 authors: ["sylus"]
 categories:
-  - jFrog
+  - devsecops
 tags:
   - Artifactory
   - X-Ray

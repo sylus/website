@@ -4,7 +4,7 @@ lastmod: 2018-07-01T17:30:00+06:00
 title: "AKS: Infrastructure as Code"
 authors: ["sylus"]
 categories:
-  - AKS
+  - kubernetes
 tags:
   - azure
   - AKS
