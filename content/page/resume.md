@@ -151,6 +151,7 @@ References are available upon request.
 [meetup]:                 https://www.meetup.com/goc-cloud-native
 [hadoop]:                 https://github.com/kubernetes/charts/pull/6688
 [nifi]:                   https://github.com/kubernetes/charts/pull/5772
+[octopus]:                https://github.com/helm/charts/pull/7769
 [kylo]:                   https://github.com/kubernetes/charts/pull/5773
 [opendata]:               https://open.canada.ca
 [openplus]:               https://openplus.ca
