@@ -16,9 +16,9 @@ toc: true
   - [GitHub][gh-govcloud]
   - [Youtube][youtube]
 2. Open Source involvement:
-  - Official Docker images ([Drupal Alpine][drupal])
-  - Official Kubernetes Helm charts ([Hadoop][hadoop], [NiFi][nifi], [Kylo][kylo])
-  - Extensions to Azure ACS Engine ([Chocolately][chocolately])
+  - Docker images ([Drupal on alpine][drupal])
+  - Kubernetes Helm charts ([Hadoop][hadoop], [NiFi][nifi], [Octopus][octopus], [Kylo][kylo])
+  - Contributions to Azure AKS Engine ([Chocolately][chocolately]), Blobporter, and Draft
 3. Maintainer of Drupal WxT 7/8
   - [Drupal 7 WxT][wetkit]
   - [Drupal 8 WxT][wxt]
