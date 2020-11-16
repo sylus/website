@@ -1,5 +1,5 @@
 ---
-title: Resumé
+title: Resume
 description: Cloud Architect with a passion for Open Source technologies seeking to gain both new experiences and knowledge in order to increase overall technological skill set. Passions include leveraging Cloud Native tools such as Kubernetes, Open Policy Agent, and Kubeflow
 menu: main
 weight: -210
