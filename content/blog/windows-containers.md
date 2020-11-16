@@ -10,6 +10,7 @@ tags:
   - containers
   - .net
 slug: windows
+draft: true
 toc: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Resumé
-description: Cloud Engineer with a passion for Open Source technologies seeking to gain both new experiences and knowledge in order to increase overall technological skill set. Currently passions include Drupal, Containerization and all things Kubernetes.
+description: Cloud Architect with a passion for Open Source technologies seeking to gain both new experiences and knowledge in order to increase overall technological skill set. Passions include leveraging Cloud Native tools such as Kubernetes, Open Policy Agent, and Kubeflow
 menu: main
 weight: -210
 tags:
@@ -8,33 +8,52 @@ tags:
 toc: true
 ---
 
-## Personal Highlights
+## Highlights
 
-1. GoC Cloud Native Working Group
-  - [Meetup][meetup]
-  - [Website][govcloud]
-  - [GitHub][gh-govcloud]
-  - [Youtube][youtube]
-2. Open Source involvement:
-  - Docker images ([Drupal on alpine][drupal])
-  - Kubernetes Helm charts ([Hadoop][hadoop], [NiFi][nifi], [Octopus][octopus], [Kylo][kylo])
-  - Contributions to Azure AKS Engine ([Chocolately][chocolately]), Blobporter, and Draft
-3. Maintainer of Drupal WxT 7/8
-  - [Drupal 7 WxT][wetkit]
-  - [Drupal 8 WxT][wxt]
-4. Technical Architect:
-  - [Open Government Portal][opendata] (Drupal 7/8)
-  - [Statistics Canada Portal][statcan] (Drupal 7/8)
+1. Open Source contributions on GitHub
+
+  - [canada-ca-terraform-modules](https://github.com/canada-ca-terraform-modules)
+    - Azure Kubernetes Service // [Infrastructure](https://github.com/canada-ca-terraform-modules/terraform-kubernetes-aks) / [Platform](https://github.com/canada-ca-terraform-modules/terraform-kubernetes-aks-platform)
+    - IBM Kubernetes Service &nbsp;&nbsp;&nbsp;// [Infrastructure](https://github.com/canada-ca-terraform-modules/terraform-kubernetes-iks) / [Platform](https://github.com/canada-ca-terraform-modules/terraform-kubernetes-iks-platform)
+  - [wxt](https://github.com/drupalwxt)
+    - [Composer Project for Drupal WxT](https://github.com/drupalwxt/site-wxt)
+    - [WxT Installation Profile](https://github.com/drupalwxt/wxt)
+    - [Helm for DrupalWxT](https://github.com/drupalwxt/helm-drupal)
+  - [statcan](https://github.com/statcan)
+    - [Charts](https://github.com/statcan/charts)
+    - [Data Analytics as a Service](https://github.com/statcan/daaas)
+    - [GateKeeper Policies](https://github.com/statcan/gatekeeper-policies)
+    - [Kubeflow Containers](https://github.com/statcan/kubeflow-containers)
+    - [Kubeflow Manifest](https://github.com/statcan/kubeflow-manifest)
+
+2. Cloud Technical Architect at Statistics Canada (Current)
+
+  - Technical Architect of Cloud Native team at Statistics Canada
+  - Developed Concept of Operations for Kubernetes Cloud Native Platform used internally and shared with other departments
+  - Recieved Authority to Operate (ATO) for Kubernetes Cloud Native Platform through met Security Controls
+  - Recieved GCEARB approval for Kubernetes Cloud Native Platform
+
+3. Drupal Technical Architect at Statistics Canada (Previous)
+
+  - Launched the [Statistics Canada Portal][statcan] on Drupal
+  - Launched [Open Government Portal][opendata] on Drupal
+
+## Presentations
+
+1. Presented the Data Analytics as a Service Platform at Stratosphere 2020
+   - [PDF](https://govcloud.blob.core.windows.net/docs/daaas-cncf.pdf) / [YouTube](https://www.youtube.com/watch?v=quYuuEAqNm0)
+2. Presented a two day course at the School of Public Service's Digital Academy on Cloud Native technologies
+   - [PDF](https://govcloud.blob.core.windows.net/docs/digital-academy.pdf) / [YouTube](https://www.youtube.com/watch?v=QvMWls8OdmM)
 
 ## Education
 
 **Honors, Bachelor of Computer Science, Carleton University <br> // Minor in Psychology <br> // September 2006 – August 2010**
 
-Graduate of the Computer Science program at Carleton University in the software and computing stream, with specializations in human-computer interaction. Honors project was done as part of the HCI lab and involved creation of a mobile app leveraging Phonegap (now called Apache Cordova) in order to deliver a narrative based geolocative storyline on a mobile phone.
+Graduate of Computer Science program at Carleton University in the software and computing stream, with focus on both human-computer interaction and software engineering. My Honors project was done in the HCI lab involving creation of a mobile app (cordova) delivering a narrative based geolocative storyline. Other courses that were of particular interest to me included Computer Graphics, and Programming Paradigms.
 
 **Game Development, Algonquin College <br> // September 2004 - June 2006**
 
-Completed 2 of 3 years in game development program at Algonquin College before switching into the Bachelor of Computer Science program at Carleton University. Core concepts focused on leveraging Direct X and Object Oriented Programming with C++. One of the years end projects was to create and render a chess board with all of the built in rulesets.
+Completed 2 of 3 years in game development program at Algonquin College before transferring into the Bachelor of Computer Science program at Carleton University. Areas of study included both DirectX, Open GL, and Object Oriented Programming with C++. One of the more interesting projects was to create and render a chess board with all of the associated rulesets.
 
 ## Work
 
@@ -105,20 +124,11 @@ Developer for Open Plus a web development firm advocating Open Source technology
 
 Web Developer tasked with creating a new Carleton Library site alongside the Senior Web Developer using the Drupal Content Management System. The tasks consist of porting all the content from the old library site into Drupal all the while making the markup more accessible to screen readers and allowing for the users of the library to more easily find the information they were looking for.
 
-## Open Source
-
-**Web Experience Toolkit ([wet-boew/wet-boew-drupal][wet-boew-drupal]) <br> // March 2011 – Present**
-
-* [Drupal 7][wxt-d7]
-* [Drupal 8][wxt-d8]
-
-Core maintainer of the Drupal WxT Variant, which integrates exclusively with the Web Experience Toolkit to provide an open source, accessible, usable, and interoperable framework for Government and Enterprise organizations.
-
 ## Awards
 
 ### Public Service Excellence Award 2014
 
-Received the public service excellence award in the “Excellence in Citizen Focused Delivery” category for my work on the Open Data platform ([open.canada.ca][opendata]).
+Received the public service excellence award in the “Excellence in Citizen Focused Delivery” category from the Governor General for my work on the Open Data platform ([open.canada.ca][opendata]).
 
 ### Team of the Year Award 2014
 
@@ -139,7 +149,6 @@ Years of experience leading to a designation as a computing certified technician
 ## References
 
 References are available upon request.
-
 
 <!-- Links Referenced -->
 
@@ -163,7 +172,7 @@ References are available upon request.
 [uottawa]:                httpa://uottawa.ca
 [wet-boew-drupal]:        https://github.com/wet-boew/wet-boew-drupal
 [wetkit]:                 https://drupal.org/project/wetkit
-[wxt]:                    https://drupal.org/project/wxt
+[wxt]:                    https://github.com/drupalwxt/wxt
 [wxt-d7]:                 https://drupal.org/project/wetkit
 [wxt-d8]:                 https://drupal.org/project/wxt
 [youtube]:                https://www.youtube.com/channel/UC00nN9hhb4q6IChP8yEIzGA

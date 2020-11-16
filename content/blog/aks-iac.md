@@ -9,6 +9,7 @@ tags:
   - azure
   - AKS
 slug: aks/iac
+draft: true
 ---
 
 Azure Kubernetes Service (**AKS**) is now general availability (**GA**) and with that announcement a slew of longstanding issues have been addressed! Most importantly you can now leverage a custom vnet and RBAC with your cluster. These were key blockers for many organizations fully going down the AKS route as opposed to ACS Engine where you still have the master node under your purview.

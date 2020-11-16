@@ -13,6 +13,7 @@ LOCALREPO_VC_DIR=$LOCALREPO/.git
 if [ ! -d $LOCALREPO_VC_DIR ]
 then
     git clone $REPOSRC $LOCALREPO
+	git checkout v2.9.0
 else
     cd $LOCALREPO
     git pull $REPOSRC

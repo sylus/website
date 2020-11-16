@@ -4,11 +4,20 @@ title = ""                            # default: .Site.Title
 description = ""                      # default: .Site.Params.info.description
 logo = "/images/logo.png"             # default: "/images/logo.png"
 
+# Breadcrumbs Widget config
+[breadcrumbs]
+separator = "/"                      # default: "/"
+excludeParents = ["page"]            # default: ["page"]
+
 # Recent Posts Widget config
 [recent_posts]
 title = ""                            # default: "Recent Posts"
 length = 4                            # default: 5
 excludeTypes = ["page"]               # default: ["page"]
+
+# Search Widget config
+[search]
+title = ""                            # default: "Search"
 
 # Sidebar Menu Widget config
 [sidebar_menu]
@@ -18,7 +27,7 @@ mirror = ""                           # default: ""
 # Social Menu Widget config
 [social_menu]
 title = ""                            # default: ""
-platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar"]
+platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar","youtube"]
 
 # Taxonomy Cloud Widget config
 [taxonomy_cloud]
