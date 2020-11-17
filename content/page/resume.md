@@ -59,21 +59,19 @@ Completed 2 of 3 years in game development program at Algonquin College before t
 
 **Government of Canada: Statistics Canada ([statcan.gc.ca][statcan], [open.canada.ca][opendata]) <br> // March 2011 – Present**
 
-**Cloud Operations Team (2018 - Present)**
+**Cloud Native Team (2018 - Present)**
 
-Technical Architect with a focus on containerization and Kubernetes. Notable job functions include the following:
+Senior Technical Architect for the Cloud Native team with a focus on open source and cloud native (CNCF) technologies such as Kubernetes, OCI Containers, and the Open Policy Agent.
 
-1. Administration, support, and maintenance of multiple Kubernetes clusters on Azure (AKS, ACS Engine)
-2. Onboarding of teams towards a micro services approach through containerization and cloud native tooling
-3. Creation of various docker images, often along with a corresponding Helm chart. (Drupal, Hadoop w/Hive, NiFi, Kylo, etc)
-4. Providing a full CI/CD pipeline either through VSTS, Jenkins and/or GitLab CI with Kubernetes integration
-5. DevTest Labs workflow leveraging formulas / artifacts (calling ansible playbooks) to fully provision a VM
-6. SAS containerization and workflow improvements
-7. JupyterHub for Kubernetes integration
-  - LDAP
-  - WxT theming support
-  - Notebooks for Python, Tensorflow, Stata, SAS, etc
-8. Facilitating container security through tools such as Artifactory, XRay
+1. Architecture, security and maintenance of multiple Kubernetes Clusters using IaC across the software development lifecycle
+2. Deployment and operation of various Horizontal Services which include Artifactory, GitLab, Elastic Cloud, and Vault
+3. Onboarding of teams towards a distributed services approach through containerization and cloud native tooling
+4. Provide best practice application architecture for containers as well as tools for tools such as Kustomize and Helm.
+5. Provide a DevSecOps oriented CI/CD pipeline leveraging the key principles laid out by the US DoD
+6. Assist the Data Analytics as a Service project using their own dedicated auto-scaling cluster as well as tools such as Kubeflow
+7. Providing the organization with an Authority to Operate through strict adherance to ITSG-33 Security Controls and alignemt with CIS Benchmarks
+8. Ensure our departmental status as a pathfinder organization is met through open source of the majority of our tools
+9. Sharing all of our experiences, lessons learned through various presentations made to numerous departments as well as Stratosphere
 
 **Web Content Management Team (2011 - 2017)**
 
@@ -101,22 +99,26 @@ Technical Architect with a focus on improving content delivery leveraging Drupal
 
 **Open Plus ([openplus.ca][openplus]) <br> // September 2010 – March 2011 (Full Time) <br> // March 2011 – Present (Contract, Part Time)**
 
-Developer for Open Plus a web development firm advocating Open Source technology. Responsibilities include interacting with different type of clients (NGO, Government, and Private Sector) and implementing a wide array of technical solutions particularly enterprise content management systems (CMS) as well as enterprise search leveraging either **ElasticSearch** / **Solr**. Enterprise hosting is largely facilitated through Amazon EC2. Recent work within the last 5 years at Open Plus have included:
+Developer for Open Plus a web development firm advocating Open Source technology. Responsibilities include interacting with different type of clients (NGO, Government, and Private Sector) and implementing a wide array of technical solutions particularly around enterprise content management systems (CMS) as well as enterprise search leveraging either ElasticSearch and / or Solr. Recent work within the last 5 years at Open Plus have included:
 
-1. Research and development for upcoming clients:
+1. Provide architectural guidance to government departments such as Canadian Revenue Agency and Transport Canada
+  - Deployment of Kubernetes as well as platform level components
+  - Deployment of the GCEARB approed Drupal WxT PaaS
+  - Provided guidance and tooling for improved automation through the use of Terraform
+2. Research and development for upcoming clients:
   - Integration with [Orcid API][orcid] into Drupal 8
   - Improved ui / patterns for migrating content via NodeJS (express / cheerio) + migrate (Drupal)
-2. Development for the Ontario Public Service Employee Union website ([opseu.org][opseu]):
+3. Development for the Ontario Public Service Employee Union website ([opseu.org][opseu]):
   - Consulted in the design and architecture
   - Migrated content from a internal xml based cms (LifeRay) into Drupal
   - Integration with Apache Solr along with improvements to search processors and mappings
-3. Consulting for the University of Ottawa website ([uottawa.ca][uottawa]):
+4. Consulting for the University of Ottawa website ([uottawa.ca][uottawa]):
   - Providing guidance on server architecture, CI/CD best practices, as well as provisioning
   - Migrated content into the Faculty of Medicine website
-4. Consulting for City of Ottawa ([ottawa.ca][ottawa]):
+5. Consulting for City of Ottawa ([ottawa.ca][ottawa]):
   - Providing guidance on server architecture
   - Assisted in migration of thousands of legacy content across disparate services into Drupal
-5. Development for the Standards Council of Canada website ([scc.ca][scc]):
+6. Development for the Standards Council of Canada website ([scc.ca][scc]):
   - Assisted in the design and overall architecture
   - Indexed content in Apache Solr from a variety of back ends including Oracle, Microsoft SQL Server, REST, and RSS
 
