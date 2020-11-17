@@ -69,7 +69,7 @@ Senior Technical Architect for the Cloud Native team with a focus on open source
 4. Provide best practice application architecture for containers as well as tools for tools such as Kustomize and Helm.
 5. Provide a DevSecOps oriented CI/CD pipeline leveraging the key principles laid out by the US DoD
 6. Assist the Data Analytics as a Service project using their own dedicated auto-scaling cluster as well as tools such as Kubeflow
-7. Providing the organization with an Authority to Operate through strict adherance to ITSG-33 Security Controls and alignemt with CIS Benchmarks
+7. Providing the organization with an Authority to Operate through strict adherance to ITSG-33 Security Controls and alignment with CIS Benchmarks
 8. Ensure our departmental status as a pathfinder organization is met through open source of the majority of our tools
 9. Sharing all of our experiences, lessons learned through various presentations made to numerous departments as well as Stratosphere
 
@@ -103,7 +103,7 @@ Developer for Open Plus a web development firm advocating Open Source technology
 
 1. Provide architectural guidance to government departments such as Canadian Revenue Agency and Transport Canada
   - Deployment of Kubernetes as well as platform level components
-  - Deployment of the GCEARB approed Drupal WxT PaaS
+  - Deployment of the GCEARB approved Drupal WxT PaaS
   - Provided guidance and tooling for improved automation through the use of Terraform
 2. Research and development for upcoming clients:
   - Integration with [Orcid API][orcid] into Drupal 8
