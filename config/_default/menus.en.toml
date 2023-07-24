@@ -1,0 +1,67 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Resume"
+url = "resume/"
+weight = 3
+
+[[main]]
+name = "Blog"
+url = "blog/"
+weight = 4
+
+[[main]]
+weight = 5
+name = "Other"
+hasChildren = true
+
+  [[main]]
+  parent = "Other"
+  name = "Contact"
+  url = "contact/"
+
+  [[main]]
+  parent = "Other"
+  name = "Authors"
+  url = "authors/"
+
+  [[main]]
+  parent = "Other"
+  name = "Search"
+  url = "search/"
+
+  [[main]]
+  parent = "Other"
+  name = "Categories"
+  url = "categories/"
+
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Resume"
+url = "resume/"
+weight = 2
+
+[[footer]]
+name = "Blog"
+url = "blog/"
+weight = 3
+
+[[footer]]
+name = "Contact"
+url = "contact/"
+weight = 4
