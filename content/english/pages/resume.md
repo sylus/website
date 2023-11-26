@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 meta_title: ""
-description: "Senior Cloud Architect with a passion for Open Source technologies seeking to gain both new experiences and knowledge in order to increase overall technological skill set."
+description: "Senior Cloud Architect (IT-04) and open source advocate working for the Government of Canada."
 author: "William Hearn"
 tags: ["resume"]
 draft: false
@@ -17,16 +17,15 @@ draft: false
   - [Managed MySQL Flexible Server](https://github.com/canada-ca-terraform-modules/terraform-azurerm-flex-mysql)
   - [Managed PostgreSQL Flexible Server](https://github.com/canada-ca-terraform-modules/terraform-azurerm-flex-postgresql)
 - [statcan](https://github.com/statcan)
-  - [Advanced Analytics Workspaces](https://github.com/statcan/aaw)
-  - [AAW Kubeflow Containers](https://github.com/statcan/aaw-kubeflow-containers)
-  - [AAW Kubeflow Manifests](https://github.com/statcan/aaw-kubeflow-manifests)
+  - [Kubeflow Manifests](https://github.com/statcan/aaw-kubeflow-manifests)
+  - [Kubeflow Containers](https://github.com/statcan/aaw-kubeflow-containers)
   - [GateKeeper Policies](https://github.com/statcan/gatekeeper-policies)
   - [Charts](https://github.com/statcan/charts)
   - [Argo Controller](https://github.com/statcan/argo-controller)
 - [wxt](https://github.com/drupalwxt)
   - [Drupal WxT](https://github.com/drupalwxt/wxt)
   - [Composer Project for Drupal WxT](https://github.com/drupalwxt/site-wxt)
-  - [Helm for DrupalWxT](https://github.com/drupalwxt/helm-drupal)
+  - [Helm for Drupal WxT](https://github.com/drupalwxt/helm-drupal)
 
 ### Senior Cloud Architect (IT-04) at Statistics Canada
 
@@ -57,15 +56,17 @@ draft: false
 ## Education
 
 ### Honors, Bachelor of Computer Science, Carleton University
+
 // September 2006 – August 2010 <br>
 // Minor in Psychology
 
-I graduated from the Computer Science program at Carleton University, specializing in software and computing. Throughout my studies, I focused on two key areas: human-computer interaction and software engineering. Notably, my Honors project was carried out in the HCI lab, where I developed a mobile app using Cordova that delivered an engaging narrative-based geolocative storyline. Additionally, I found great interest in courses such as Computer Graphics and Programming Paradigms, which further enriched my academic experience.
+I graduated from the Computer Science program at Carleton University, specializing in software and computing with a minor in Psychology. Throughout my studies, I focused on two key areas: human-computer interaction and software engineering. Notably, my Honors project was carried out in the HCI lab, where I developed a mobile app using Cordova that delivered an engaging narrative-based geo-locative storyline that also leveraged QR codes. Additionally, I found great interest in courses such as Computer Graphics and Programming Paradigms, which further enriched my academic experience.I graduated from the Computer Science program at Carleton University, specializing in software and computing with a minor in Psychology. Throughout my studies, I focused on two key areas: human-computer interaction and software engineering. Notably, my Honors project was carried out in the HCI lab, where I developed a mobile app using Cordova that delivered an engaging narrative-based geo-locative storyline that also leveraged QR codes. Additionally, I found great interest in courses such as Computer Graphics and Programming Paradigms, which further enriched my academic experience.
 
 ### Game Development, Algonquin College
+
 // September 2004 - June 2006
 
-Completed two out of three years in the game development program at Algonquin College, before I made the decision to transfer into the Bachelor of Computer Science program at Carleton University. During my studies, I delved into diverse subjects such as DirectX, OpenGL, and Object-Oriented Programming with C++, while engaging in captivating projects that involved developing various games. One of the notable projects was the creation and rendering of a chessboard, encompassing all associated rulesets.
+Completed half of a three year program in the game development program at Algonquin College, before I made the decision to transfer into the Bachelor of Computer Science program at Carleton University. During my studies, I delved into subjects such as DirectX, OpenGL, and Object-Oriented Programming with C++, while engaging in projects that involved developing various games. One of the notable projects was the re-creation of a chess game from scratch and implemented both the design and rule-sets.
 
 ## Language Proficiency
 
@@ -76,73 +77,112 @@ Completed two out of three years in the game development program at Algonquin Co
 
 - Secret (Level II)
 
+## TECHNICAL SKILLS
+
+- Languages: Go, PHP, HTML, CSS, TypeScript, SQL, C#, C/C++, Python
+- Tools: Git, GitLab / GitLab CI, Helm, Kubernetes, Terraform
+- Frameworks: Drupal, CKAN, Solr, Vue.js
+- Operating systems: Linux (Debian/Ubuntu and Kali Linux), Mac OS and Windows
+
 ## Work
 
 ### Statistics Canada
 
-#### [2019-11 to Present] Cloud Native Solutions
+#### [2019-11 to Present] Cloud Native Solutions Team
 
-Senior Technical Architect (IT-04) for the Cloud Native Solutions team with a focus on improving the Cloud Native Platform and empowering Solution Builders.
+Senior Cloud Architect (IT-04) for the Cloud Native Solutions (CNS) team with a focus on improving the Cloud Native Platform (CNP) and further empowering Solution Builders.
 
-- Creation and ongoing maintenance of the Advanced Analytics Workspace (AAW) data science environment built on top of the Cloud Native Platform using Kubeflow
-- Enhance the Cloud Native Platform (2.0) through architectural improvements, strengthening security measures, and implementing an updated GitOps deployment model using Argo CD
-- Successfully maintain and improve upon the automatation and onboarding to Horizontal Services such as Artifactory, Argo CD, GitLab, and Hashicorp Vault
-- Enhance the developer experience for all Solution Builders at Statistics Canada through continuous improvements to the Cloud Native Platform, which is now the organizational default standard
+Cloud Native Platform:
+
+- Enhanced the Cloud Native Platform (2.0) through architectural improvements and strengthening security measures
+- Obtained an Authority to Operate (ATO) for the CNP by working closely with the Cyber Security Division (CSD)
+- Assisted in the platform undergoing independent security audits and penetration testing
+- Led the implementation to an updated GitOps deployment model of the CNP using Argo CD
+- Strengthened the security, networking, and observability of the CNP leveraging Istio (service mesh) and Cilium (networking layer))
+- Inherited security controls from the platform relieving burden from developers as they go through SA&A
+
+Advanced Analytics Workspaces:
+
+- Initial creation of an advanced data analytics environment on top of the CNP using Kubeflow via Argo CD
+- Initial creation of the custom container images built for Kubeflow providing support for SAS, RStudio, and Jupyter Notebooks
+- Extended the capabilities of Kubeflow by developing custom controllers enhancing automation in ML deployments
+
+DevSecOps:
+
+- Enhanced developer experience for all solution builders through continuous improvements to the CNP which is now the organizational standard
+- Collaborated on DevSecOps oriented CI/CD pipelines for solution builders streamlining the onboarding processes
+- Maintained and improved upon the automation and onboarding to Horizontal Services such as Artifactory, Argo CD, GitLab (CI), and Vault
+- Started research of Backstage and work towards a self-service developer portal for common tasks
 - Provided ongoing expert guidance on best practice application architecture to Solution Builders, ensuring optimal design and performance
-- Collaborated on a DevSecOps-oriented CI/CD pipeline, streamlining onboarding processes and enhancing the developer experience
-- Obtained an Authority to Operate (ATO) for the Cloud Native Platform by adhering to the Government of Canada Security Controls and undergoing independent security assessments conducted by 3rd party vendors
-- Ensured the organization's status as a pathfinder by actively open-sourcing a significant portion of work as well as sharing experiences and lessons learned to many other departments
-- Strengthened the security, networking, and observability of the Cloud Native Platform by utilizing Istio as the Service Mesh and Cilium as the networking layer
 
-#### [2018-06 to 2019-11] Enterprise Cloud Services
+#### [2018-06 to 2019-11] Enterprise Cloud Services Division
 
-Technical Architect (IT-03) for the Enterprise Cloud Services team with a focus on open source and Cloud Native (CNCF) technologies such as Kubernetes.
+Cloud Architect (IT-03) for the Enterprise Cloud Services Division (ECSD) with a focus on open source and proving how Cloud Native (CNCF) technologies such as Kubernetes can help to improve service delivery for Canadians.
 
-- Spearheaded the architecture, security, and maintenance of the Cloud Native Platform (Kubernetes) using Infrastructure as Code across the entire SDLC
-- Successfully deployed and managed Horizontal Services such as Artifactory, Octopus, GitLab, Hashicorp Vault enhancing operational efficiency
-- Led the transition of selected Solution Builders towards a distributed services approach through containerization and cloud-native tooling
-- Obtained an interim Authority to Operate (iATO) for the Cloud Native Platform while working on answering the hundreds of security controls
-- Started the planning and organizational structure of what a Cloud Native Solutions team would look like and how a platform engineering team could benefit the organization
-- Provide guidance and offer best practice guides on containerizing applications across various programming stacks
+Cloud Native Platform:
 
-#### [2015-03 to 2018-06] Web Content Management
+- Built an enterprise-level, Protected B Cloud Native Platform (PBMM) using Kubernetes and CNCF technologies
+- Obtained an interim Authority to Operate (iATO) by working closely with the Cyber Security Division (CSD)
+- Answered hundreds of Security Controls and completed the full Security Assessment and Authorization
+- Created a detailed Concept of Operations document that was shared across many departments
+- Started to plan the organizational structure of what a Cloud Native Solutions team would benefit the department
+- Designed, deployed, secured, and operated Kubernetes clusters across the SDLC
+- Leveraged both infrastructure and configuration as code technologies to enable internal operations
 
-Technical Architect (IT-03) with a focus on enhancing content delivery leveraging Drupal.
+Improved Application Onboarding:
 
-- TBD
+- Deployed and maintained Horizontal Services such as Artifactory, Argo CD, GitLab (CI), Jira / Confluence and Vault
+- Assisted solution builders on building net new distributed applications adopting DevSecOps and Containerization
+- Provided guidance and application templates for applications across various programming stacks
+- Assisted with the creation, modification, and deployment of applications using tools such as Helm or Kustomize
 
-#### [2011-06 to 2015-03] Web Content Management
+Knowledge Sharing as a Pathfinder:
 
-Technical Architect (IT-02) with a focus on enhancing content delivery leveraging Drupal.
+- Ensured the organization's status as a pathfinder through commitments to open source
+- Presented at numerous government events including Stratosphere multiple times
+- Taught at the Public Service's Digital Academy a full 2 day course
+- Open Sourced the majority of our work in the GC Accelerators and StatCan GitHub organization
+- Provided ongoing support for any questions asked by departments in Cloud Native development
 
-- TBD
+#### [2011-06 to 2018-06] Web Content Management System Team
+
+Technical Architect (IT-03) within the WCMS team at Statistics Canada, specializing in open source solutions and playing a key role in the development of the government-wide Drupal distribution known today as Drupal WxT.
+
+Development of the [open.canada.ca][opendata] for the Government of Canada's Open Data initiative:
+
+- Integration of Drupal with Solr using Views for an improved search
+- Integration between Drupal and CKAN through REST
+- Creation of interactive components including blog, comments, ratings and app submissions
+- Improve the access to information content and information architecture
+- Server load and performance testing to handle peak traffic
+- Work closely alongside members from TBS and implementing their vision
+
+Development of the New Dissemination Model for [statcan.gc.ca][statcan]:
+
+- Focus on improving the UX to make finding data on the main portal easier to find
+- Work on enhancing Drupal as an output metadata framework powered by REST
+- Tight integration between Drupal and CKAN through REST
+- Coordination with business clients to integrate the new GIS mapping system
+
+Development and migration of [statcan.gc.ca][statcan] to Drupal:
+
+- Successfully led the migration of the main website to Drupal and then later to Drupal 8
+- Collaboration with a large team to implement features on both Internet / Intranet
+- Migration of 100,000+ HTML pages into Drupal with markup and data cleansing
+- Implementation of a reliable and secure content staging model using REST and UUID
+- Compliance to WCAG2 AA and Government of Canada web standards (C&IA)
+- Improved multilingual support on both the front / back-end interfaces
+- Drupal bug fixes and security updates along the full SDLC
+- Supported the various theme updates to wet-boew
+- Perform RCA for any system degradations and outages
+- Utilize GitLab (CI) for source code management and CI/CD
+- Development of multiple web applications to support business clients
 
 ### Open Plus
 
-#### [2011-03 to Present] Senior Developer
+#### [2011-03 to Present] Technical Consultant
 
-Consultant for Open Plus, leveraging my expertise as a Senior Technical Architect in both Drupal and the Cloud.
-
-Development of the [Ontario Public Service Employee Union](https://opseu.org) <br>
-
-- Consulted in the design and architecture
-- Migrated content from a internal xml based cms (LifeRay) into Drupal
-- Integration with Apache Solr along with improvements to search processors and mappings
-
-Collaborated on the [University of Ottawa](https://uottawa.ca) website <br>
-
-- Providing guidance on server architecture, CI/CD best practices, as well as provisioning
-- Migrated content into the Faculty of Medicine website
-
-Collaborated on the [City of Ottawa](https://ottawa.ca) website <br>
-
-- Providing guidance on server architecture
-- Assisted in migration of thousands of legacy content across disparate services into Drupal
-
-Development of the [Standards Council of Canada][scc] website <br>
-
-- Assisted in the design and overall architecture
-- Indexed content in Solr from a variety of back ends including Oracle, Microsoft SQL Server, REST, and RSS
+Technical Consultant for [Open Plus][openplus] where initially my focus was on leveraging Drupal and Solr to craft websites for an array of clients, including government departments. However, my responsibilities have since evolved and now I focus more on the Cloud largely working with Microsoft Azure and integrating modern DevOps practices. In addition I have helped the development of a managed Drupal platform powered by Kubernetes and other CNCF technologies to deliver highly efficient and scalable solutions for the business clients.
 
 ### Open Source
 
@@ -153,43 +193,49 @@ Development of the [Standards Council of Canada][scc] website <br>
 - Ensured ongoing compliance with Web Content Accessibility Guidelines (WCAG) AA standards
 - Collaborated with a diverse team of often remote developers, designers, and stakeholders to implement new features, fix issues, and enhance the overall functionality
 - Actively participated in the Drupal community by contributing code, sharing knowledge, and engaging in discussions to improve Drupal
-- Received recognition and positive feedback from government agencies and users for delivering high-quality, secure, and scalable solution
 - Stayed up-to-date with the latest trends and best practices in Open Source development, Drupal, and web technologies
 - Mentored and onboarded new developers to the Drupal WxT project, fostering a collaborative and supportive development environment
 
 ## Awards
 
 ### Excellence in Service Delivery Award
+
 // 2021
 
 Received the Excellence in Service Delivery Award as part of the Cloud Team in recognition of outstanding service that has enhanced Statistics Canada's work and reputation amount Canadians.
 
 ### Employee Recognition Award
+
 // 2019
 
 Received the Employee Recognition Award as part of the Cloud Team for a distinguished contribution to the effectiveness of Statistics Canada upon moving many Production workloads including the main website to the Cloud.
 
 ### Public Service Excellence Award
+
 // 2014
 
 Received the prestigious **Public Service Excellence Award** in the Excellence in Citizen Focused Delivery category from the Governor General. The award was a recognition of exceptional contributions to the development of the Open Data platform ([open.canada.ca][opendata]).
 
 ### Team of the Year Award
+
 // 2014
 
 Received the team of the year award at Statistics Canada for the work the team has contributed to the Open Data platform ([open.canada.ca][opendata]) and Statistics Canada's main website ([statcan.gc.ca][statcan]).
 
 ### GTEC Winner
+
 // 2014
 
 Won for Excellence in Public Service Delivery for the Next Generation Open Data Portal. A joint submission between Statistics Canada and the Treasury Board Secretariat.
 
 ### GTEC Honoree
+
 // 2013
 
 Received an Honoree nomination at GTEC under the category of “Collaboration around a Web Content Management Framework for Government and Public Institutions”. This was a joint submission by Statistics Canada, Canadian Transportation Agency, University of Ottawa, and the City of Ottawa.
 
 ### Merit Award
+
 // 2013
 
 Recieved the merit award at Statistics Canada in recognition of an exceptional and distinguished contribution to the effectiveness of Statistics Canada
@@ -200,11 +246,10 @@ Years of experience leading to a designation as a computing certified technician
 
 ## References
 
-References available upon request.
+References are available upon request.
 
 <!-- Links Referenced -->
 
 [opendata]:               https://open.canada.ca
 [openplus]:               https://openplus.ca
-[scc]:                    https://scc.ca
 [statcan]:                https://statcan.gc.ca
