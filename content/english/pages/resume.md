@@ -9,6 +9,12 @@ draft: false
 
 {{< toc >}}
 
+## About
+
+Senior Cloud Architect (IT-04) and open source advocate working for the Government of Canada.
+
+Passions include leveraging Cloud Native (CNCF) technologies such as Kubernetes and Argo CD.
+
 ## Highlights
 
 ### Open Source contributions on GitHub
@@ -60,7 +66,7 @@ draft: false
 // September 2006 – August 2010 <br>
 // Minor in Psychology
 
-I graduated from the Computer Science program at Carleton University, specializing in software and computing with a minor in Psychology. Throughout my studies, I focused on two key areas: human-computer interaction and software engineering. Notably, my Honors project was carried out in the HCI lab, where I developed a mobile app using Cordova that delivered an engaging narrative-based geo-locative storyline that also leveraged QR codes. Additionally, I found great interest in courses such as Computer Graphics and Programming Paradigms, which further enriched my academic experience.I graduated from the Computer Science program at Carleton University, specializing in software and computing with a minor in Psychology. Throughout my studies, I focused on two key areas: human-computer interaction and software engineering. Notably, my Honors project was carried out in the HCI lab, where I developed a mobile app using Cordova that delivered an engaging narrative-based geo-locative storyline that also leveraged QR codes. Additionally, I found great interest in courses such as Computer Graphics and Programming Paradigms, which further enriched my academic experience.
+I graduated from the Computer Science program at Carleton University, specializing in software and computing with a minor in Psychology. Throughout my studies, I focused on two key areas: human-computer interaction and software engineering. Notably, my Honors project was carried out in the HCI lab, where I developed a mobile app using Cordova that delivered an engaging narrative-based geo-locative storyline that also leveraged QR codes. Additionally, I found great interest in courses such as Computer Graphics and Programming Paradigms, which further enriched my academic experience.
 
 ### Game Development, Algonquin College
 
@@ -77,7 +83,7 @@ Completed half of a three year program in the game development program at Algonq
 
 - Secret (Level II)
 
-## TECHNICAL SKILLS
+## Technical Skills
 
 - Languages: Go, PHP, HTML, CSS, TypeScript, SQL, C#, C/C++, Python
 - Tools: Git, GitLab / GitLab CI, Helm, Kubernetes, Terraform
@@ -98,7 +104,7 @@ Cloud Native Platform:
 - Obtained an Authority to Operate (ATO) for the CNP by working closely with the Cyber Security Division (CSD)
 - Assisted in the platform undergoing independent security audits and penetration testing
 - Led the implementation to an updated GitOps deployment model of the CNP using Argo CD
-- Strengthened the security, networking, and observability of the CNP leveraging Istio (service mesh) and Cilium (networking layer))
+- Strengthened the security, networking, and observability of the CNP leveraging Istio (service mesh) and Cilium (networking layer)
 - Inherited security controls from the platform relieving burden from developers as they go through SA&A
 
 Advanced Analytics Workspaces:
@@ -138,7 +144,6 @@ Improved Application Onboarding:
 
 Knowledge Sharing as a Pathfinder:
 
-- Ensured the organization's status as a pathfinder through commitments to open source
 - Presented at numerous government events including Stratosphere multiple times
 - Taught at the Public Service's Digital Academy a full 2 day course
 - Open Sourced the majority of our work in the GC Accelerators and StatCan GitHub organization
