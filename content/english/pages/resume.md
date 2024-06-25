@@ -13,7 +13,7 @@ draft: false
 
 Senior Cloud Architect (IT-04) and open source advocate working for the Government of Canada.
 
-Passions include leveraging Cloud Native (CNCF) technologies such as Kubernetes and Argo CD.
+Passions include leveraging Cloud Native (CNCF) technologies such as Kubernetes, Argo CD and Cilium.
 
 ## Highlights
 
@@ -36,12 +36,12 @@ Passions include leveraging Cloud Native (CNCF) technologies such as Kubernetes 
 ### Senior Cloud Architect (IT-04) at Statistics Canada
 
 - Managed diverse Kubernetes clusters across the entire Software Development Life Cycle (SDLC)
-  - Currently 3+ years, including critical business workloads running on production clusters.
+  - Currently 4+ years, including critical business workloads running on production clusters.
 - Senior Cloud Architect (IT-04) of Cloud Native Team @ Statistics Canada
 - Successfully obtained Authority to Operate (ATO) for the Cloud Native Platform (Kubernetes)
   - Worked with Cyber Security Division and external security vendors to meet stringent security and compliance controls
   - Developed the Concept of Operations for the Cloud Native Platform
-- Secured GCEARB approval for the Cloud Native Platform, ensuring adherence to standardized government architectural principles.
+- Secured GCEARB approval for the Cloud Native Platform, ensuring adherence to standardized government architectural principles
 
 ### Senior Drupal Technical Architect (IT-03) at Statistics Canada
 
@@ -88,7 +88,7 @@ Completed half of a three year program in the game development program at Algonq
 - Languages: Go, PHP, HTML, CSS, TypeScript, SQL, C#, C/C++, Python
 - Tools: Git, GitLab / GitLab CI, Helm, Kubernetes, Terraform
 - Frameworks: Drupal, CKAN, Solr, Vue.js
-- Operating systems: Linux (Debian/Ubuntu and Kali Linux), Mac OS and Windows
+- Operating systems: Linux (Alpine, Debian/Ubuntu), Mac OS and Windows
 
 ## Work
 
@@ -96,30 +96,36 @@ Completed half of a three year program in the game development program at Algonq
 
 #### [2019-11 to Present] Cloud Native Solutions Team
 
-Senior Cloud Architect (IT-04) for the Cloud Native Solutions (CNS) team with a focus on improving the Cloud Native Platform (CNP) and further empowering Solution Builders.
+Senior Cloud Architect (IT-04) for the Cloud Native Solutions (CNS) team, specializing in enhancing the Kubernetes-based Cloud Native Platform (CNP) and empowering Solution Builders for greater innovation and efficiency.
 
 Cloud Native Platform:
 
-- Enhanced the Cloud Native Platform (2.0) through architectural improvements and strengthening security measures
-- Obtained an Authority to Operate (ATO) for the CNP by working closely with the Cyber Security Division (CSD)
-- Assisted in the platform undergoing independent security audits and penetration testing
-- Led the implementation to an updated GitOps deployment model of the CNP using Argo CD
-- Strengthened the security, networking, and observability of the CNP leveraging Istio (service mesh) and Cilium (networking layer)
-- Inherited security controls from the platform relieving burden from developers as they go through SA&A
+- Enhanced the Cloud Native Platform (2.0) through comprehensive architectural improvements and robust security measures
+- Achieved Authority to Operate (ATO) for the CNP and its components by collaborating closely with the Cyber Security Division (CSD)
+- Facilitated independent security audits and penetration testing to ensure platform resilience
+- Led the transition to an updated GitOps deployment model for the CNP using Argo CD
+- Enhanced the security, networking, and observability of the CNP by leveraging Istio (service mesh) and Cilium (networking layer)
+- Implemented a Zero Trust architecture at the namespace level using Fortigate and Azure SDN connector
+- Streamlined security compliance for developers by inheriting security controls from the platform, easing the SA&A process
 
 Advanced Analytics Workspaces:
 
-- Initial creation of an advanced data analytics environment on top of the CNP using Kubeflow via Argo CD
-- Initial creation of the custom container images built for Kubeflow providing support for SAS, RStudio, and Jupyter Notebooks
-- Extended the capabilities of Kubeflow by developing custom controllers enhancing automation in ML deployments
+- Creation of an advanced data analytics environment on top of the CNP using Kubeflow via Argo CD
+- Creation of custom container images built for Kubeflow providing support for SAS, RStudio, and Jupyter Notebooks
+- Extended the capabilities of Kubeflow by developing custom controllers to enhance automation for ML-related deployments.
+- Collaborated with data scientists and analysts to tailor the environment for specific analytics and machine learning needs
+- Optimized resource allocation and scaling to handle large-scale data processing tasks efficiently
 
 DevSecOps:
 
-- Enhanced developer experience for all solution builders through continuous improvements to the CNP which is now the organizational standard
-- Collaborated on DevSecOps oriented CI/CD pipelines for solution builders streamlining the onboarding processes
-- Maintained and improved upon the automation and onboarding to Horizontal Services such as Artifactory, Argo CD, GitLab (CI), and Vault
-- Started research of Backstage and work towards a self-service developer portal for common tasks
-- Provided ongoing expert guidance on best practice application architecture to Solution Builders, ensuring optimal design and performance
+- Enhanced the developer experience for all solution builders through continuous improvements to the CNP, establishing it as the organizational standard
+- Collaborated on DevSecOps-oriented CI/CD pipelines, streamlining onboarding processes and ensuring efficient code integration and delivery
+- Maintained and enhanced automation and onboarding processes for Horizontal Services, including Artifactory, Argo CD, GitLab (CI), and Vault
+- Conducted research on Backstage, progressing towards a self-service developer portal for common tasks to improve developer productivity and autonomy
+- Provided ongoing expert guidance on best practice application architecture to Solution Builders, ensuring optimal design, performance, and security
+- Implemented security-as-code practices, integrating security measures directly into CI/CD pipelines to ensure compliance and reduce vulnerabilities
+- Developed comprehensive documentation and training materials to support developers in adopting DevSecOps practices and utilizing the CNP effectively
+- Leveraged infrastructure as code (IaC) tools to automate the provisioning and management of cloud resources, ensuring consistency and reducing errors
 
 #### [2018-06 to 2019-11] Enterprise Cloud Services Division
 

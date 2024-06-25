@@ -5,14 +5,14 @@ description: "Don't just take my word on it - please read from some of the testi
 
 testimonials:
   - name: "Andrew Sinkinson"
-    designation: "Director Enterprise Cloud Services Division @ Statistics Canada"
+    designation: "Director General, Cloud Operations, Hosting Services @ SSC"
     avatar: "/images/avatar-sm.png"
-    content: "William has been a driving force behind our successful cloud-native initiatives at Statistics Canada. His skills in using CNCF technologies and passion for Open Source have transformed the experience of our solution builders, making our projects more agile and reliable."
+    content: "William has been a driving force behind successful cloud-native initiatives at Statistics Canada. His skills in using CNCF technologies and passion for Open Source have transformed the experience of solution builders, making projects more agile and reliable."
 
   - name: "Zachary Seguin"
-    designation: "IT-04 Project Manager Cloud Native Team @ Statistics Canada"
+    designation: "IT-04 Senior Advisor Private Cloud @ SSC"
     avatar: "/images/avatar-sm.png"
-    content: "I can't speak highly enough about William's contributions. His proficiency in CNCF tooling and commitment to Open Source values have revolutionized the way we approach cloud-native development. He has made our project team more agile, collaborative, and forward-thinking."
+    content: "I can't speak highly enough about William's contributions. His proficiency in CNCF tooling and commitment to Open Source values have revolutionized the way departments approach cloud-native development. He has made project teams more agile, collaborative, and forward-thinking."
 
   - name: "Robin Galipeau"
     designation: "Managing Partner and Entrepreneur @ Open Plus"
