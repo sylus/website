@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "Senior Cloud Architect, Cloud Native Team @ Statistics Canada"
-  content: "I am an Senior Cloud Architect / Open Source advocate working for the Government of Canada. My passions include empowering Project Teams / Solution Builders through the use of Cloud Native (CNCF) technologies."
+  title: "Senior Cloud Architect, Cloud Native Solutions @ Statistics Canada"
+  content: "I’m a Senior Cloud Architect and Open Source advocate at the Government of Canada, focused on empowering Solution Builders with Cloud Native (CNCF) technologies."
   image: "/images/banner.png"
   button:
     enable: true
@@ -13,13 +13,13 @@ banner:
 features:
   - title: "Cloud Native Solutions"
     image: "/images/cloud-native-solutions.png"
-    content: "Through an insightful journey of continuous learning in the field of Cloud Native architecture, complemented by many years of hands-on development and operational experience, I have achieved an exceptional level of proficiency in the following areas:"
+    content: "Through years of hands-on experience and continuous learning in Cloud Native architecture, I’ve gained exceptional proficiency in the following areas:"
     bulletpoints:
-      - "Designing a highly scalable and resilient cloud native platform using CNCF technologies."
-      - "Creating custom controllers and operators to better manage the needs of solution builders."
+      - "Designing a highly secure, scalable and resilient cloud native platform using CNCF technologies."
+      - "Developing custom controllers and operators to better manage the needs of solution builders."
       - "Implementing best practices for cloud security and cost optimization."
       - "Leveraging GitOps using Argo CD to declaratively manage infrastructure and applications."
-      - "Improving the overalll Developer Experience and time to delivery"
+      - "Enhancing the Developer Experience and accelerating application delivery."
     button:
       enable: false
 
