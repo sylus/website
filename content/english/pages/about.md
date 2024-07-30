@@ -1,13 +1,13 @@
 ---
 title: "A little TLDR about myself"
 meta_title: "About"
-description: "Senior Technical Architect (IT-04), Cloud Native Team @ Statistics Canada"
+description: "Senior Technical Architect (IT-04), Cloud Native Solutions @ Statistics Canada"
 image: "/images/avatar.png"
 layout: "about"
 draft: false
 ---
 
-I am an Senior Cloud Architect / Open Source advocate currently working at Statistics Canada. Open Source technologies are my passion, and I am dedicated to continuously expanding my skill set and gaining new experiences in this technology domain.
+I am an Senior Cloud Architect (IT-04) and open source advocate working for the Government of Canada. Open Source technologies are my passion, and I am dedicated to continuously expanding my skill set and gaining new experiences in this technology domain.
 
 One of my key areas of focus is empowering Project Teams / Solution Builders to deploy secure and scalable solutions. I achieve this by leveraging the potential of cutting-edge Cloud Native Computing Foundation (CNCF) technologies. These tools play a crucial role in enabling agile and efficient cloud-based solutions that meet the highest standards of security and scalability.
 

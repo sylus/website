@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Senior Cloud Architect, Cloud Native Solutions @ Statistics Canada"
-  content: "I’m a Senior Cloud Architect and Open Source advocate at the Government of Canada, focused on empowering Solution Builders with Cloud Native (CNCF) technologies."
+  content: "Senior Cloud Architect (IT-04) and open source advocate working for the Government of Canada. Passions include leveraging Cloud Native (CNCF) technologies such as Kubernetes, Argo CD and Cilium."
   image: "/images/banner.png"
   button:
     enable: true

@@ -19,6 +19,8 @@ Passions include leveraging Cloud Native (CNCF) technologies such as Kubernetes,
 
 ### Open Source contributions on GitHub
 
+- [sylus](https://github.com/sylus)
+  - [dotfiles](https://github.com/sylus/dotfiles)
 - [canada-ca-terraform-modules](https://github.com/canada-ca-terraform-modules)
   - [Managed MySQL Flexible Server](https://github.com/canada-ca-terraform-modules/terraform-azurerm-flex-mysql)
   - [Managed PostgreSQL Flexible Server](https://github.com/canada-ca-terraform-modules/terraform-azurerm-flex-postgresql)
@@ -36,8 +38,8 @@ Passions include leveraging Cloud Native (CNCF) technologies such as Kubernetes,
 ### Senior Cloud Architect (IT-04) at Statistics Canada
 
 - Managed diverse Kubernetes clusters across the entire Software Development Life Cycle (SDLC)
-  - Currently 4+ years, including critical business workloads running on production clusters.
-- Senior Cloud Architect (IT-04) of Cloud Native Team @ Statistics Canada
+  - Currently 5+ years, including critical business workloads running on production clusters.
+- Senior Cloud Architect (IT-04) of Cloud Native Solutions @ Statistics Canada
 - Successfully obtained Authority to Operate (ATO) for the Cloud Native Platform (Kubernetes)
   - Worked with Cyber Security Division and external security vendors to meet stringent security and compliance controls
   - Developed the Concept of Operations for the Cloud Native Platform
@@ -56,8 +58,6 @@ Passions include leveraging Cloud Native (CNCF) technologies such as Kubernetes,
 
 1. Presented the Data Analytics as a Service Platform at Stratosphere 2020
    - [YouTube](https://www.youtube.com/watch?v=quYuuEAqNm0)
-2. Presented a two day course at the School of Public Service's Digital Academy on Cloud Native technologies
-   - [YouTube](https://www.youtube.com/watch?v=QvMWls8OdmM)
 
 ## Education
 
