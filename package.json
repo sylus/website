@@ -1,9 +1,10 @@
 {
-  "name": "hugoplate",
-  "description": "hugo tailwindcss boilerplate",
+  "name": "website",
+  "description": "Personal website built using Hugo",
   "version": "3.5.0",
   "license": "MIT",
-  "author": "zeon.studio",
+  "author": "William Hearn",
+  "homepage": "https://sylus.ca",
   "scripts": {
     "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server\"",
     "build": "node scripts/themeGenerator.js && hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
@@ -18,6 +19,10 @@
     "theme-setup": "node ./scripts/themeSetup.js",
     "update-theme": "node ./scripts/themeUpdate.js",
     "format": "prettier -w ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylus/website"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.2.1",

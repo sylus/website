@@ -22,9 +22,9 @@ env:
   HUGO_ENV: production
   HUGO_VERSION: "0.158.0"
   GO_VERSION: "1.23.3"
-  TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
-  TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-  TINA_SEARCH_TOKEN: ${{ secrets.TINA_SEARCH_TOKEN }}
+  # TINA_CLIENT_ID: ${{ secrets.TINA_CLIENT_ID }}
+  # TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+  # TINA_SEARCH_TOKEN: ${{ secrets.TINA_SEARCH_TOKEN }}
 
 jobs:
   # Build job
@@ -51,8 +51,8 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Setup Project
-        run: npm run project-setup
+      # - name: Setup Project
+      #   run: npm run project-setup
 
       - name: Install npm dependencies
         run: npm install

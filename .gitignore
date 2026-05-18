@@ -14,3 +14,5 @@ resources
 jsconfig.json
 go.sum
 yarn.lock
+
+*.pdf
