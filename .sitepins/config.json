@@ -1,14 +1,14 @@
 {
-  "content": "exampleSite/content",
-  "media": "exampleSite/assets/images",
-  "public": "exampleSite/static",
+  "content": "content",
+  "media": "assets/images",
+  "public": "static",
   "configs": [
-    "exampleSite/config/_default",
-    "exampleSite/hugo.toml",
-    "exampleSite/data",
-    "exampleSite/i18n"
+    "config/_default",
+    "hugo.toml",
+    "data",
+    "i18n"
   ],
   "custom-commit": false,
   "arrangement": [],
-  "code": "layouts"
+  "code": "themes/hugoplate/layouts"
 }
